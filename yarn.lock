@@ -3068,6 +3068,16 @@ react-devtools-core@2.3.1:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
+react-native-carousel@^0.10.0:
+  version "0.10.0"
+  resolved "http://registry.npm.taobao.org/react-native-carousel/download/react-native-carousel-0.10.0.tgz#f4becc5ff46f66585d0ec9e42dce1efb1d7e571a"
+  dependencies:
+    react-timer-mixin "^0.13.3"
+
+react-native-swiper@^1.5.4:
+  version "1.5.4"
+  resolved "http://registry.npm.taobao.org/react-native-swiper/download/react-native-swiper-1.5.4.tgz#a85535b5374ef8d605a7a720e447ac46816ac448"
+
 react-native@0.46.4:
   version "0.46.4"
   resolved "http://registry.npm.taobao.org/react-native/download/react-native-0.46.4.tgz#281bbcc165e5c36b4c8eaa868e6768543e811bcb"
@@ -3171,7 +3181,7 @@ react-test-renderer@16.0.0-alpha.12:
     fbjs "^0.8.9"
     object-assign "^4.1.0"
 
-react-timer-mixin@^0.13.2:
+react-timer-mixin@^0.13.2, react-timer-mixin@^0.13.3:
   version "0.13.3"
   resolved "http://registry.npm.taobao.org/react-timer-mixin/download/react-timer-mixin-0.13.3.tgz#0da8b9f807ec07dc3e854d082c737c65605b3d22"
 
