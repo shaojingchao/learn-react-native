@@ -28,7 +28,7 @@ import FadeInView from './src/component/animate/FadeInView';
 import SetNativeProps from './src/component/SetNativeProps';
 
 
-// console.log(Swiper);
+console.log(Swiper);
 
 const images = [
     'http://szimg.mukewang.com/57bd5ec80001b0c405400300-360-202.jpg',
@@ -46,9 +46,7 @@ export default class Main extends Component {
         return (
 
             <View>
-                <View style={{height:500,backgroundColor:"#eee"}}>
-                    <Swiper/>
-                </View>
+
 
                 <View>
                     <ScrollView>
@@ -58,6 +56,10 @@ export default class Main extends Component {
 
 
                             <View style={styles.container}>
+
+                                <View style={{height:500,backgroundColor:"#eee"}}>
+                                    <Swiper/>
+                                </View>
 
                                 <View>
                                     <Text style={styles.welcome}>
